@@ -9,6 +9,7 @@
     <module>echinus-web</module>
     <module>echinus-service</module>
     <module>echinus-model</module>
+    <module>echinus-common</module>
   </modules>
   
    <properties>
@@ -16,6 +17,9 @@
 		<mysql.version>5.1.10</mysql.version>
 		<mybatis.version>3.4.0</mybatis.version>
         <mybatis-spring.version>1.3.0</mybatis-spring.version>
+        <fileupload.version>1.3</fileupload.version>
+		<httpclient.version>4.4.1</httpclient.version>
+		<jackson-json.version>2.4.3</jackson-json.version>
   </properties>
   
   <dependencies>
